@@ -3,33 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
+
     <h1>Rock Paper Scissors</h1>
+
     <div class="choices">
-        <div class="choise"  id="rock">
-            <img src="/rock.png" alt="">
+        <div class="choice" id="rock">
+            <img src="rock.png" alt="rock">
         </div>
-        <div class="choise" id="paper">
-            <img src="/paper.png" alt=""></div>
-        <div class="choise" id="scissors">
-            <img src="/scissors.png" alt="">
+        <div class="choice" id="paper">
+            <img src="paper.png" alt="paper">
         </div>
-       
+        <div class="choice" id="scissors">
+            <img src="scissors.png" alt="scissors">
+        </div>
     </div>
-     <div class="score-borad">
-            <div class="score">
-                <p id="player-score">0</p>
-                <p>player-score</p>
-                <p id="computer-score">0</p>
-                <p>computer-score</p>
-            </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
         </div>
-        <div class="msg-container">
-            <p class="msg" id="msg">Chose you play </p>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Computer</p>
         </div>
-        <script src="script.js"></script>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Choose your move</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
